@@ -1,4 +1,7 @@
 
+### [TurbulenzEngine](http://docs.turbulenz.com/jslibrary_api/engine_api.html?highlight=turbulenzengine)
+核心引擎
+createGraphicsDevice
 
 
 ### [基础API库](http://docs.turbulenz.com/game_engine_overview.html#low-level-api) 
@@ -57,3 +60,32 @@
 * 通信协议封装
 * 调试和记录
 * 网络模拟
+
+
+### [floor](http://docs.turbulenz.com/jslibrary_api/floor_api.html)
+地面
+color=4
+fadeToColor
+
+### [vmath](http://docs.turbulenz.com/jslibrary_api/vmath_api.html)
+向量和矩阵运算
+平移向量
+'''
+[x,y,z]
+'''
+转移矩阵
+'''
+	[1 0 0 x]
+	[0 1 0 y]
+	[0 0 1 z]
+	[0 0 0 1]
+'''
+矩阵和向量
+	v2 - An array of length 2.
+	v3 - An array of length 3.
+	v4 - An array of length 4.
+	quat - An array of length 4.
+	m33 - An array of length 9 accessed in a row column format.
+	m43 - An array of length 12 accessed in a row column format.
+	m34 - An array of length 12 accessed in a row column format.
+	m44 - An array of length 16 accessed in a row column format.
